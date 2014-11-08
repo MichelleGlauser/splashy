@@ -10,5 +10,5 @@ urlpatterns = patterns('',
     # url(r'^blog/', include('blog.urls')),
 
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^$', '<appfoldername>.views.index', name='home'),
+    url(r'^$', 'splashy_app.views.index', name='home'),
 )
