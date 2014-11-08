@@ -1,0 +1,6 @@
+splashy
+*.log
+*.pot
+*.pyc
+.DS_Store
+config/local
