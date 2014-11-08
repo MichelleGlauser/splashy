@@ -1,0 +1,1 @@
+web: gunicorn splashy_project.wsgi --log-file -
