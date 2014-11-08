@@ -1,1 +1,1 @@
-web: python splashy_project/manage.py collectstatic --noinput; gunicorn splashy_project/settings.py
+web: python manage.py collectstatic --noinput; gunicorn splashy_project.wsgi --log-file -
