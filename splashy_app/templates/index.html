@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+
+{% load staticfiles %}
+
+{% block title %}INDEX PAGE{% endblock %}
+
+{% block content %}
+<div id="page">
+    <div class="wrapper">
+        <header id="mainheader" class="clearfix ">
+        <div id="intro"><h1>MICHELLE GLAUSER</h1><span><br>circles and dots and other distractions</span></h1></div>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="#about" class="about">about me</a> </li>
+                        <li><a href="#my_blog" class="my_blog">my blog</a></li>
+                        <li><a href="#coding" class="coding">coding</a></li>
+                        <li><a href="#projects" class="projects">projects</a></li>
+                        <li><a href="#contact" class="contact">contact</a></li>
+                    </ul>
+                </nav> 
+        </header>
+        
+        <div class="group">
+
+            <div id="about" class="posts col">
+                <div class="post_content">
+                    <h2>About Me</h2>
+                    <!-- <p class="post_details"><b>Post words</b></p> -->
+                    <p>Hi! I'm Michelle Glauser. I have lived in Salt Lake City, Leipzig (in Germany; yes, I speak German), Shanghai, London, and San Francisco, and I've traveled to many other places. I've been blogging since 2003 and wrote my Master's thesis on mommy bloggers. I learned to code at Hackbright Academy and happily became a software engineer and now I'm passionate about helping more women join and feel comfortable in tech. Despite living at the top of a hill, I try to bike everywhere I go and that makes me feel very happy. My husband Michael and I met playing soccer, and because his family speaks Mandarin I have been trying to pick up what I can. When I'm not hacking, reading, attending tech events, or sleeping, I might be playing the piano, hiking, or watching other people's dogs at a nearby park. My favorite pasttimes, though, are baking (and consuming) chocolate chip cookies, and burying myself in a book.</p>
+                </div>
+            </div>
+                
+            <div id="my_blog" class="posts col">
+                <div class="post_content">
+                    <h2>My Blog</h2>
+                    <p>I've been blogging since 2003. <a href="http://michelleglauser.blogspot.com">Check it out!</a></p>
+                    <p>Highlights:</p>
+                </div>
+            </div>
+
+            <div id="coding" class="posts col">
+                <div class="post_content">
+                    <h2>Coding</h2>
+                    <p>See my <a href="https://github.com/MichelleGlauser">Github code here.</a></p>
+                    <p><a href="http://bookfairy.herokuapp.com/">BookFairy: </a>Helping booklisters check the SF library a whole list at a time</p>
+                    <p><a href="http://operationrevive.org/">Revive: </a>Bringing healthcare into the slums one backpack at a time</p>
+                </div>
+            </div>
+
+            <div id="projects" class="posts col">
+                <div class="post_content">
+                    <h2>Projects</h2>
+                    <p>Stuff to fill up space.</p>
+                </div>
+            </div>
+
+            <div id="contact" class="posts col">
+                <div class="post_content">
+                    <h2>Contact</h2>
+                    <p>Find me on <a href="https://twitter.com/MichelleGlauser">Twitter.</a></p>
+                    <p>Read about my work history on <a href="www.linkedin.com/in/michelleglauser/">LinkedIn.</a></p>
+                    <p>Email me. My address is my first and last name at gmail.com.</a></p>
+                </div>
+            </div>
+        </div>
+        <!-- <footer>
+            <div class="group">
+                <div class="posts col">
+                    <h2>Check out:</h2> 
+                </div>
+            </div>
+
+        </footer> -->
+    </div>
+</div>
+{% endblock %}
