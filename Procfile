@@ -1,1 +1,1 @@
-web: envdir config/local python manage.py runserver 0.0.0.0:$PORT
+web: python manage.py collectstatic --noinput; gunicorn splashy_project.wsgi --log-file -
