@@ -13,3 +13,10 @@ urlpatterns = patterns('',
     url(r'^$', 'splashy_app.views.index', name='home'),
     # url(r'^static/(?P.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}),
 )
+
+urlpatterns += staticfiles_urlpatterns()
+
+if not settings.DEBUG:
+    urlpatterns += patterns('',
+        (r'^static/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.STATIC_ROOT}),
+    )
