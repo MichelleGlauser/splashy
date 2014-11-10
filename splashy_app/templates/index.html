@@ -8,13 +8,13 @@
 <div id="page">
     <div class="wrapper">
         <header id="mainheader" class="clearfix ">
-        <div id="intro"><h1>MICHELLE GLAUSER</h1><span><br>circles and dots and other distractions</span></h1></div>
+        <div id="intro"><h1>MICHELLE GLAUSER</h1><span><br>San Francisco Developer and Cookie Lover</span></h1></div>
                 <nav class="navbar">
                     <ul>
                         <li><a href="#about" class="about">about me</a> </li>
-                        <li><a href="#my_blog" class="my_blog">my blog</a></li>
                         <li><a href="#coding" class="coding">coding</a></li>
-                        <li><a href="#projects" class="projects">projects</a></li>
+                        <li><a href="#community" class="community">community</a></li>
+                        <li><a href="#my_blog" class="my_blog">my blog</a></li>
                         <li><a href="#contact" class="contact">contact</a></li>
                     </ul>
                 </nav> 
@@ -25,32 +25,51 @@
             <div id="about" class="posts col">
                 <div class="post_content">
                     <h2>About Me</h2>
-                    <!-- <p class="post_details"><b>Post words</b></p> -->
-                    <p>Hi! I'm Michelle Glauser. I have lived in Salt Lake City, Leipzig (in Germany; yes, I speak German), Shanghai, London, and San Francisco, and I've traveled to many other places. I've been blogging since 2003 and wrote my Master's thesis on mommy bloggers. I learned to code at Hackbright Academy and happily became a software engineer and now I'm passionate about helping more women join and feel comfortable in tech. Despite living at the top of a hill, I try to bike everywhere I go and that makes me feel very happy. My husband Michael and I met playing soccer, and because his family speaks Mandarin I have been trying to pick up what I can. When I'm not hacking, reading, attending tech events, or sleeping, I might be playing the piano, hiking, or watching other people's dogs at a nearby park. My favorite pasttimes, though, are baking (and consuming) chocolate chip cookies, and burying myself in a book.</p>
-                </div>
-            </div>
-                
-            <div id="my_blog" class="posts col">
-                <div class="post_content">
-                    <h2>My Blog</h2>
-                    <p>I've been blogging since 2003. <a href="http://michelleglauser.blogspot.com">Check it out!</a></p>
-                    <p>Highlights:</p>
+                    <img src="{% static 'images/michelleglauser.jpg' %}"></img>
+                    <p>Hi! I'm Michelle Glauser, a lover of Python and homemade cookies. I learned to code at Hackbright Academy in 2012 and happily became a software engineer. I'm passionate about helping more women join and feel comfortable in tech. When I'm not doing techie things, I enjoy baking (and consuming) cookies, burying myself in <a href="https://www.goodreads.com/user/show/1516110-michelle">a book</a>, playing the piano, going on hikes, and watching dogs at a nearby park.</p>
                 </div>
             </div>
 
             <div id="coding" class="posts col">
                 <div class="post_content">
                     <h2>Coding</h2>
-                    <p>See my <a href="https://github.com/MichelleGlauser">Github code here.</a></p>
-                    <p><a href="http://bookfairy.herokuapp.com/">BookFairy: </a>Helping booklisters check the SF library a whole list at a time</p>
-                    <p><a href="http://operationrevive.org/">Revive: </a>Bringing healthcare into the slums one backpack at a time</p>
+                    <p>See my <a href="https://github.com/MichelleGlauser">Github code here</a>. There you'll find my code <a href="https://github.com/MichelleGlauser/Sporty">from the ESPNW Hackathon (full-stack Python)</a>, several Get Satisfaction hacks (<a href="https://github.com/MichelleGlauser/GS-Company-Updates-Banner">company updates banner</a> using AJAX and cookies, <a href="https://github.com/MichelleGlauser/Subscribe-to-All-New-Topics-Button">subscribe to all new topics button</a> in JavaScript, <a href="https://github.com/MichelleGlauser/Bulk-User-Invitation">bulk user invitation</a> in Ruby, and a <a href="https://github.com/MichelleGlauser/Trinet-Ideas-Page">Trinet ideas page</a>), some <a href="https://github.com/MichelleGlauser/RailsBridgeFun">RailsBridge workshops</a>, and <a href="">this site</a>, built in Python and Django.</p>
+                    <p>Additionally, check out these sites:</p>
+                    <ul><li><p><a href="http://bookfairy.herokuapp.com/">BookFairy: </a>Helping booklisters check the SF library a whole list at a time</p></li>
+                    <li><p><a href="http://operationrevive.org/">Revive: </a>Bringing healthcare into the slums one backpack at a time</p></li>
+                    <li><p><a href="http://chishenma.herokuapp.com/help_me_decide/">ChiShenMa:</a> a mobile web app to help you pick a place to eat in Shanghai</p></li>
+                    </ul>
+                    <p></p>
                 </div>
             </div>
 
-            <div id="projects" class="posts col">
+            <div id="community" class="posts col">
                 <div class="post_content">
-                    <h2>Projects</h2>
-                    <p>Stuff to fill up space.</p>
+                    <h2>Community</h2>
+                    <p>As I said, I'm passionate about helping more women join and be comfortable in tech.</p>
+                    <ul>
+                        <li><p><a href="http://michelleglauser.blogspot.com/2013/03/resources-for-learning-to-code-and.html">Learning-to-Code Resources</a>—my open-source spreadsheet to gather coding information</p></li>
+                        <li><p><a href="http://youtu.be/JffZTSFC9lU">My Story and Women in Tech</a>—a talk I gave at Barcamp Shanghai 2013</p></li>
+                        <li><p><a href="http://michelleglauser.blogspot.com/2013/12/why-tech-is-great-for-women.html">21 Reasons Why Tech is a Great Field for Women</a>—my post to encourage more women to join tech</p></li>
+                        <li><p><a href="http://michelleglauser.blogspot.co.uk/2013/12/first-railsbridge-shanghai-china.html">People Can Code Shanghai Railsbridge</a>—first Railsbridge workshop in China, organized by me</p></li>
+                        <li><p><a href="http://michelleglauser.blogspot.com/2014/07/six-weeks-in-london.html">JavaScript and Tech Interview Meetups</a>—meetups I organized for Women Who Code London</p></li>
+                        <li>Coming soon—an HTML/CSS/JS workshop for homeless women in San Francisco</li>
+                    </ul>
+                </div>
+            </div>
+                
+            <div id="my_blog" class="posts col">
+                <div class="post_content">
+                    <h2>My Blog</h2>
+                    <p>I've been blogging since 2003. <a href="http://michelleglauser.blogspot.com">Check it out!</a> Highlights:</p>
+                        <ul>
+                            <li><p><a href="http://michelleglauser.blogspot.com/2013/02/women-in-tech-listserve-email.html">Women in Tech Listserve Email</a>—my story of joining and loving tech</p></li>
+                            <li><p><a href="http://michelleglauser.blogspot.com/2012/07/how-to-survive-broken-foot.html">How to Survive a Broken Foot</a>—my all-time most popular blog post (with 50,000+ YouTube views)</p></li>
+                            <li><p><a href="http://michelleglauser.blogspot.com/2014/09/our-wedding.html">Our Wedding</a> and <a href="http://michelleglauser.blogspot.com/2014/01/wedding-celebration-in-taiwan.html">Our Taiwanese Wedding Celebration</a></p></li>
+                            <li><p>Living in and traveling to<a href="http://michelleglauser.blogspot.com/search?q=Shanghai"> Shanghai</a>, <a href="ttp://michelleglauser.blogspot.com/2014/07/six-weeks-in-london.html">London</a>, <a href="http://michelleglauser.blogspot.com/2014/07/our-first-year-in-san-francisco.html">San Francisco</a>, <a href="http://michelleglauser.blogspot.com/search?q=Leipzig">Leipzig</a>, <a href="http://michelleglauser.blogspot.com/2014/07/russia-part-i-moscow.html">Russia</a>, <a href="http://michelleglauser.blogspot.com/2014/07/paris.html">Paris</a>, <a href="http://michelleglauser.blogspot.com/2014/07/scotland-and-englands-lake-district.html">Scotland</a>, <a href="http://michelleglauser.blogspot.com/2014/05/yangshuo-and-guilin.html">Guilin/Yangshuo</a>, <a href="http://michelleglauser.blogspot.com/2014/04/sun-and-sunburn-in-philippines.html">Philippines</a>, <a href="http://michelleglauser.blogspot.com/2014/03/beijing.html">Beijing</a>, <a href="">Taiwan</a>, <a href="http://michelleglauser.blogspot.com/2014/01/japan-2013.html">Japan</a>, <a href="http://michelleglauser.blogspot.com/2013/11/golden-week-trip-to-hong-kong-and-macau.html">Hong Kong and Macau</a>, <a href="http://michelleglauser.blogspot.com/2014/01/japan-2013.html">Québec and Montréal</a>, <a href="http://michelleglauser.blogspot.com/2011/11/northwest-trip-2011.html">Pacific Northwest</a>, <a href="http://michelleglauser.blogspot.com/2009/05/turkey-bulgaria-sofia-pictures-and.html">Turkey/Bulgaria/Romania</a>, <a href="http://michelleglauser.blogspot.com/2009/10/poland-in-2-days.html">Poland</a>, <a href="http://michelleglauser.blogspot.com/2008/10/riga-trip-pics.html">Latvia</a>, <a href="http://michelleglauser.blogspot.com/search?q=Switzerland">Switzerland</a>, <a href="http://michelleglauser.blogspot.com/2008/09/oh-so-warm-sicily.html">Italy</a>, <a href="http://michelleglauser.blogspot.com/2008/03/chi-town.html">Chicago</a>, <a href="http://michelleglauser.blogspot.com/search?q=New+York">New York</a>,<a href="http://michelleglauser.blogspot.com/search?q=Boston">Boston</a>, <a href="http://michelleglauser.blogspot.com/2007/08/costa-rica-negatives-and-positives.html">Costa Rica</a>, and <a href="http://michelleglauser.blogspot.com/2007/06/cruisin.html">Mexico</a></p></li>
+                            <li><p>Projects: <a href="http://michelleglauser.blogspot.com/2014/07/our-city-garden-before-and-after.html">City Garden</a>, <a href="http://michelleglauser.blogspot.com/search?q=landscaper">DIY Landscaping</a>, <a href="http://michelleglauser.blogspot.com/2010/11/my-christmas-tree-paper-quilling.html">Quilling</a>, <a href="http://michelleglauser.blogspot.com/2010/10/grandmas-umbrella-reincarnated.html">Umbrella Skirt</a>, <a href="http://michelleglauser.blogspot.com/2011/01/audrey-hepburn-silhouette-project.html">Audrey Hepburn Silhouette</a>, <a href="http://michelleglauser.blogspot.com/2010/05/my-couchs-new-look.html">Sofa Cover</a></p></li>
+                        </ul>
+                    </p>
                 </div>
             </div>
 
